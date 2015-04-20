@@ -4,9 +4,10 @@ Following the django poll app tutorial in Django documention, "Writing your firs
 
 Completed work: <br>
 Part 1 of django app tutorial <br>
+Part 2 of django app tutorial <br>
 
 In progress: <br>
-Doing and attempting to comprehend part 2 <br>
+Doing and attempting to comprehend part 3
 
 # Status of part 1 tutorial: Done
 
@@ -27,6 +28,11 @@ Edit polls/admin.py and polls/models.py to enhance the user's UI in the admin pa
 Edit mysite/settings.py and added new file to tell django to source for template file and use it for the page setup. (Completed) <br>
 
 
+# Status of part 3 tutorial
+
+Create first view code in polls/views.py (Completed) <br>
+
+
 # Django learning points
 
 1. Models are represented by a class(that subclasses django.db.models.Model). Each of the models has a number of class variables which represents a database field in the model.<br>
@@ -38,3 +44,7 @@ Edit mysite/settings.py and added new file to tell django to source for template
 4. 'makemigrations' command bascially create migrations for the changes made in the models.py <br>
 
 5. In 'TabularInline' mode, related objects are displayed in more compact and table-based format. <br>
+
+6. View is a type of web page in django app that serves a specific function and has a specific template. <br>
+
+7. In Django, web pages and other content are delivered by views. By examining the URL that is requested, Django will choose a view based on it. <br>
