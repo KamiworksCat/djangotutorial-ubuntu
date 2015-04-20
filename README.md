@@ -2,11 +2,11 @@
 
 Following the django poll app tutorial in Django documention, "Writing your first Django app"
 
-Completed work:
-Part 1 of django app tutorial
+Completed work: <br>
+Part 1 of django app tutorial <br>
 
-In progress:
-Doing and attempting to comprehend part 2
+In progress: <br>
+Doing and attempting to comprehend part 2 <br>
 
 # Status of part 1 tutorial: Done
 
