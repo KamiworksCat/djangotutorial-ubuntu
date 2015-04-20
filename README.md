@@ -10,4 +10,11 @@ Doing and attempting to comprehend part 1
 Changed the timezone in mysite/settings.py from 'UTC' to 'Singapore'. (Completed) <br>
 Ran manage.py migrate to create database tables for django to reference upon. (Completed) <br>
 Created the polls to begin the learning journey. (Completed) <br>
+Populate the models.py in polls folder with 'Questions' and 'Choice' models
 
+
+# Django learning points
+
+1. Models are represented by a class(that subclasses django.db.models.Model). Each of the models has a number of class variables which represents a database field in the model.<br>
+
+2. Django supports all common database relationships: many-to-one, many-to-many, one-to-one. <br>
