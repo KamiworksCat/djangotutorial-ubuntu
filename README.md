@@ -31,6 +31,8 @@ Edit mysite/settings.py and added new file to tell django to source for template
 # Status of part 3 tutorial
 
 Create first view code in polls/views.py (Completed) <br>
+Mapping the view to a URL and pointing the rool URLconf. (Completed) <br>
+Adding more views and configuring their urls. (Completed) <br>
 
 
 # Django learning points
