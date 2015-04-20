@@ -16,7 +16,7 @@ Ran manage.py migrate to create database tables for django to reference upon. (C
 Created the polls to begin the learning journey. (Completed) <br>
 Populate the models.py in polls folder with 'Questions' and 'Choice' models and migrate changes to the database. (Completed) <br>
 Exploring Python Shell and adding new entry to the 'Questions' models. (Completed) <br>
-New updates to models.py: adding '__str__()' and new custom method(timezone test check). (Completed) <br>
+New updates to models.py: adding '__ str __ ()' and new custom method(timezone test check). (Completed) <br>
 New addition to models(Choice) via Python shell: Added 2 new choices with 0 votes. (Completed) <br>
 
 # Status of part 2 tutorial
