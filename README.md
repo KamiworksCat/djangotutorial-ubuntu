@@ -10,7 +10,8 @@ Doing and attempting to comprehend part 1
 Changed the timezone in mysite/settings.py from 'UTC' to 'Singapore'. (Completed) <br>
 Ran manage.py migrate to create database tables for django to reference upon. (Completed) <br>
 Created the polls to begin the learning journey. (Completed) <br>
-Populate the models.py in polls folder with 'Questions' and 'Choice' models
+Populate the models.py in polls folder with 'Questions' and 'Choice' models and migrate changes to the database. (Completed) <br>
+Exploring Python Shell and adding new entry to the 'Questions' models. (Completed) <br>
 
 
 # Django learning points
