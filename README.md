@@ -23,7 +23,7 @@ New addition to models(Choice) via Python shell: Added 2 new choices with 0 vote
 Created user data with 'createsuperuser' command. (Completed) <br>
 Edit polls/admin.py to allow the polls app to be modifiable in the admin page. (Completed) <br>
 Edit the pub_date and question_text fields to exchange their positions. (Completed) <br>
-
+Edit polls/admin.py and polls/models.py to enhance the user's UI in the admin page of the server. (Completed) <br>
 
 
 # Django learning points
@@ -35,3 +35,5 @@ Edit the pub_date and question_text fields to exchange their positions. (Complet
 3. Migrate command synchronise the changes that the user made to the models with the schema in the database. <br>
 
 4. 'makemigrations' command bascially create migrations for the changes made in the models.py <br>
+
+5. In 'TabularInline' mode, related objects are displayed in more compact and table-based format. <br>
