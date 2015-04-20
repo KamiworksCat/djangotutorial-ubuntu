@@ -24,6 +24,7 @@ Created user data with 'createsuperuser' command. (Completed) <br>
 Edit polls/admin.py to allow the polls app to be modifiable in the admin page. (Completed) <br>
 Edit the pub_date and question_text fields to exchange their positions. (Completed) <br>
 Edit polls/admin.py and polls/models.py to enhance the user's UI in the admin page of the server. (Completed) <br>
+Edit mysite/settings.py and added new file to tell django to source for template file and use it for the page setup. (Completed) <br>
 
 
 # Django learning points
