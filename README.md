@@ -4,3 +4,7 @@ Following the django poll app tutorial in Django documention, "Writing your firs
 
 In progress:
 Doing and attempting to comprehend part 1
+
+# Status of part 1 tutorial
+
+Changed the timezone in mysite/settings.py from 'UTC' to 'Singapore'.
