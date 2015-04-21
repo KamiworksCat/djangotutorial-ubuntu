@@ -37,6 +37,7 @@ Adding more views and configuring their urls. (Completed) <br>
 Updating index view and introducting new templates for polls to reference upon. (Completed) <br>
 Create Http404 request and exception in views.py and new detail.html for polls/templates. (Completed) <br>
 Updating detail.html with more enhancement. (Completed) <br>
+Removing hardcoded url in index.html. (Completed) <br>
 
 
 
