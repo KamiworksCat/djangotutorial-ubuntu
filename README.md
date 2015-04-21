@@ -6,9 +6,10 @@ Attempting to finish the tutorial while trying to understand the way django prog
 Completed work: <br>
 Part 1 of django app tutorial <br>
 Part 2 of django app tutorial <br>
+Part 3 of django app tutorial <br>
 
 In progress: <br>
-Doing and attempting to comprehend part 3
+Doing and attempting to comprehend part 4
 
 # Status of part 1 tutorial: Done
 
@@ -38,7 +39,9 @@ Updating index view and introducting new templates for polls to reference upon. 
 Create Http404 request and exception in views.py and new detail.html for polls/templates. (Completed) <br>
 Updating detail.html with more enhancement. (Completed) <br>
 Removing hardcoded url in index.html. (Completed) <br>
+Namespacing url names. (Completed) <br>
 
+# Status of part 4 tutorial
 
 
 # Django learning points
@@ -62,3 +65,5 @@ Removing hardcoded url in index.html. (Completed) <br>
 9. get_list_or_404() function use filter() instead of get() but works the same as get_object_or_404(). <br>
 
 10. The template system uses dot-lookup syntax to access variable attributes. <br>
+
+11. Adding namespace to root URLconf helps to differentiate one app from other apps that has similar view. <br>
