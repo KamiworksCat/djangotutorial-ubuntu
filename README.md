@@ -34,6 +34,8 @@ Create first view code in polls/views.py (Completed) <br>
 Mapping the view to a URL and pointing the rool URLconf. (Completed) <br>
 Adding more views and configuring their urls. (Completed) <br>
 Updating index view and introducting new templates for polls to reference upon. (Completed) <br>
+Create Http404 request and exception in views.py and new detail.html for polls/templates. (Completed) <br>
+
 
 
 # Django learning points
