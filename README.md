@@ -1,6 +1,7 @@
 # djangotutorial-ubuntu
 
 Following the django poll app tutorial in Django documention, "Writing your first Django app"
+Attempting to finish the tutorial while trying to understand the way django programming language works.
 
 Completed work: <br>
 Part 1 of django app tutorial <br>
@@ -35,6 +36,7 @@ Mapping the view to a URL and pointing the rool URLconf. (Completed) <br>
 Adding more views and configuring their urls. (Completed) <br>
 Updating index view and introducting new templates for polls to reference upon. (Completed) <br>
 Create Http404 request and exception in views.py and new detail.html for polls/templates. (Completed) <br>
+Updating detail.html with more enhancement. (Completed) <br>
 
 
 
@@ -57,3 +59,5 @@ Create Http404 request and exception in views.py and new detail.html for polls/t
 8. get_object_or_404() help coupled the model layer to view layer. <br>
 
 9. get_list_or_404() function use filter() instead of get() but works the same as get_object_or_404(). <br>
+
+10. The template system uses dot-lookup syntax to access variable attributes. <br>
