@@ -53,3 +53,7 @@ Create Http404 request and exception in views.py and new detail.html for polls/t
 6. View is a type of web page in django app that serves a specific function and has a specific template. <br>
 
 7. In Django, web pages and other content are delivered by views. By examining the URL that is requested, Django will choose a view based on it. <br>
+
+8. get_object_or_404() help coupled the model layer to view layer. <br>
+
+9. get_list_or_404() function use filter() instead of get() but works the same as get_object_or_404(). <br>
