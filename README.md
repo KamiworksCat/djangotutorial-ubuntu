@@ -21,7 +21,7 @@ Exploring Python Shell and adding new entry to the 'Questions' models. (Complete
 New updates to models.py: adding '__ str __ ()' and new custom method(timezone test check). (Completed) <br>
 New addition to models(Choice) via Python shell: Added 2 new choices with 0 votes. (Completed) <br>
 
-# Status of part 2 tutorial
+# Status of part 2 tutorial: Done
 
 Created user data with 'createsuperuser' command. (Completed) <br>
 Edit polls/admin.py to allow the polls app to be modifiable in the admin page. (Completed) <br>
@@ -30,7 +30,7 @@ Edit polls/admin.py and polls/models.py to enhance the user's UI in the admin pa
 Edit mysite/settings.py and added new file to tell django to source for template file and use it for the page setup. (Completed) <br>
 
 
-# Status of part 3 tutorial
+# Status of part 3 tutorial: Done
 
 Create first view code in polls/views.py (Completed) <br>
 Mapping the view to a URL and pointing the rool URLconf. (Completed) <br>
