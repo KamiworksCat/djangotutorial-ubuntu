@@ -44,6 +44,7 @@ Namespacing url names. (Completed) <br>
 # Status of part 4 tutorial
 
 Enhance the outlook in detail.html (Completed) <br>
+Changing and enhancing the views.py when a vote request/query is submitted to the server. (Completed) <br>
 
 
 # Django learning points
@@ -71,4 +72,8 @@ Enhance the outlook in detail.html (Completed) <br>
 11. Adding namespace to root URLconf helps to differentiate one app from other apps that has similar view. <br>
 
 12. It is recommended to use method="post" whenever you create a form which will influence data server-side. <br>
+
+13. request.POST is a dictionary-like object which let the user access submitted data by key name. values of request.POST are always strings. <br>
+
+14. request.GET is same as request.POST but it access GET data. <br>
 
