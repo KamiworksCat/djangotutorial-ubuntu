@@ -43,6 +43,8 @@ Namespacing url names. (Completed) <br>
 
 # Status of part 4 tutorial
 
+Enhance the outlook in detail.html (Completed) <br>
+
 
 # Django learning points
 
@@ -67,3 +69,6 @@ Namespacing url names. (Completed) <br>
 10. The template system uses dot-lookup syntax to access variable attributes. <br>
 
 11. Adding namespace to root URLconf helps to differentiate one app from other apps that has similar view. <br>
+
+12. It is recommended to use method="post" whenever you create a form which will influence data server-side. <br>
+
