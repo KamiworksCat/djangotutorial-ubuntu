@@ -7,9 +7,10 @@ Completed work: <br>
 Part 1 of django app tutorial <br>
 Part 2 of django app tutorial <br>
 Part 3 of django app tutorial <br>
+Part 4 of django app tutorial <br>
 
 In progress: <br>
-Doing and attempting to comprehend part 4
+Doing and attempting to comprehend part 5
 
 # Status of part 1 tutorial: Done
 
@@ -41,7 +42,7 @@ Updating detail.html with more enhancement. (Completed) <br>
 Removing hardcoded url in index.html. (Completed) <br>
 Namespacing url names. (Completed) <br>
 
-# Status of part 4 tutorial
+# Status of part 4 tutorial: Done
 
 Enhance the outlook in detail.html (Completed) <br>
 Changing and enhancing the views.py when a vote request/query is submitted to the server. (Completed) <br>
@@ -78,4 +79,6 @@ Updating views.py and creating results.html to reflect the votes registered for 
 
 14. request.GET is same as request.POST but it access GET data. <br>
 
-15. 
+15. ListView display list of objects while DetailView display a detail page for indicated object. <br>
+
+16. 
