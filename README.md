@@ -45,6 +45,7 @@ Namespacing url names. (Completed) <br>
 
 Enhance the outlook in detail.html (Completed) <br>
 Changing and enhancing the views.py when a vote request/query is submitted to the server. (Completed) <br>
+Updating views.py and creating results.html to reflect the votes registered for each choice. (Completed) <br>
 
 
 # Django learning points
@@ -77,3 +78,4 @@ Changing and enhancing the views.py when a vote request/query is submitted to th
 
 14. request.GET is same as request.POST but it access GET data. <br>
 
+15. 
