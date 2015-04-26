@@ -51,7 +51,7 @@ Updating views.py and creating results.html to reflect the votes registered for 
 # Status of part 5 tutorial
 
 Created first tests.py (Completed) <br>
-
+Ran first successful test. (Completed) <br>
 
 
 # Django learning points
