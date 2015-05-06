@@ -53,7 +53,7 @@ Updating views.py and creating results.html to reflect the votes registered for 
 Created first tests.py (Completed) <br>
 Ran first successful test. (Completed) <br>
 Added 2 new tests in tests.py. (Completed) <br>
-
+Set up test environment in python shell and play around with response tests. (Completed) <br>
 
 
 # Django learning points
