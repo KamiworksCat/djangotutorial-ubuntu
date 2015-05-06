@@ -2,6 +2,7 @@ from django.shortcuts import get_object_or_404, render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.views import generic
+from django.utils import timezone
 
 from .models import Choice, Question
 
@@ -16,6 +17,12 @@ class IndexView(generic.ListView):
 class DetailView(generic.DetailView):
 	model = Question
 	template_name = 'polls/detail.html'
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        :return:
+        """
+        return Question.objects.filter(pub_date_lte=timezone.now())
 
 class ResultsView(generic.DetailView):
 	model = Question
@@ -37,3 +44,12 @@ def vote(request, question_id):
 		# Always return an HttpResponseRedirect after successfully dealing
 		# with POST data. This prevents the data from being reposted if a user hits the Back button.
 		return HttpResponseRedirect(reverse('polls:results', args=(p.id,)))
+
+def get_queryset(self):
+    """
+    Return the last five published questions (not including those set to be published in the future).
+    :return:
+    """
+    return Question.objects.filter(
+        pub_date_lte=timezone.now()
+    ).order_by('-pub_date')[:5]
