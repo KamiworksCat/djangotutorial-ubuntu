@@ -8,9 +8,10 @@ Part 1 of django app tutorial <br>
 Part 2 of django app tutorial <br>
 Part 3 of django app tutorial <br>
 Part 4 of django app tutorial <br>
+Part 5 of django app tutorial <br>
 
 In progress: <br>
-Doing and attempting to comprehend part 5
+Doing and attempting to comprehend part 6
 
 # Status of part 1 tutorial: Done
 
@@ -48,7 +49,7 @@ Enhance the outlook in detail.html (Completed) <br>
 Changing and enhancing the views.py when a vote request/query is submitted to the server. (Completed) <br>
 Updating views.py and creating results.html to reflect the votes registered for each choice. (Completed) <br>
 
-# Status of part 5 tutorial
+# Status of part 5 tutorial: Done
 
 Created first tests.py (Completed) <br>
 Ran first successful test. (Completed) <br>
@@ -56,6 +57,11 @@ Added 2 new tests in tests.py. (Completed) <br>
 Set up test environment in python shell and play around with response tests. (Completed) <br>
 Created new tests in tests.py to test the polls index page for questions, be it in the past or the future. (Completed) <br>
 New tests for detail polls view in tests.py (Completed) <br>
+
+
+# Status of part 6 tutorial
+
+
 
 
 # Django learning points
