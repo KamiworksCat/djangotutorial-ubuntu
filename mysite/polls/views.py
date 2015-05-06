@@ -15,8 +15,8 @@ class IndexView(generic.ListView):
 		return Question.objects.order_by('-pub_date')[:5]
 
 class DetailView(generic.DetailView):
-	model = Question
-	template_name = 'polls/detail.html'
+    model = Question
+    template_name = 'polls/detail.html'
     def get_queryset(self):
         """
         Excludes any questions that aren't published yet.
@@ -36,7 +36,7 @@ def vote(request, question_id):
 		# Redisplay the question voting form.
 		return render(request, 'polls/detail.html', {
 			'question': p,
-			'error_messahe': "You didn't select a choice.",
+			'error_message': "You didn't select a choice.",
 		})
 	else:
 		selected_choice.votes += 1
