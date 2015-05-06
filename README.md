@@ -1,4 +1,4 @@
-# djangotutorial-ubuntu
+# djangotutorial-ubuntu (Completed)
 
 Following the django poll app tutorial in Django documention, "Writing your first Django app"
 Attempting to finish the tutorial while trying to understand the way django programming language works.
@@ -9,9 +9,9 @@ Part 2 of django app tutorial <br>
 Part 3 of django app tutorial <br>
 Part 4 of django app tutorial <br>
 Part 5 of django app tutorial <br>
+Part 6 of django app tutorial <br>
 
-In progress: <br>
-Doing and attempting to comprehend part 6
+In progress: Tutorial is completed
 
 # Status of part 1 tutorial: Done
 
@@ -61,7 +61,8 @@ New tests for detail polls view in tests.py (Completed) <br>
 
 # Status of part 6 tutorial
 
-
+Added style.css to apply to the polls page. (Completed) <br>
+Created images directory and image, applying the image onto the webpage. (Completed) <br>
 
 
 # Django learning points
